@@ -4,26 +4,26 @@ public class ArrayTest {
 
 	public static void main(String[] args) {
 
-		// ¾²Ì¬³õÊ¼»¯Êı×é1
+		//é‡‡ç”¨é™æ€åˆå§‹åŒ–æ–¹å¼åˆå§‹åŒ–ç¬¬1ä¸ªæ•°ç»„
 		String[] books = new String[] { 
 				"This is book one", 
 				"This is book two", 
 				"This is book three" 
 				};
 
-		// ¾²Ì¬³õÊ¼»¯Êı×é2
+		//é‡‡ç”¨é™æ€åˆå§‹åŒ–æ–¹å¼åˆå§‹åŒ–ç¬¬2ä¸ªæ•°ç»„
 		String[] names = { 
 				"This is name one", 
 				"This is name two" 
 				};
 
-		// ¶¯Ì¬³õÊ¼»¯Êı×é
+		//é‡‡ç”¨åŠ¨æ€åˆå§‹åŒ–æ–¹å¼åˆå§‹åŒ–ç¬¬3ä¸ªæ•°ç»„
 		String[] strArr = new String[5];
 
-		// ·ÃÎÊ3¸öÊı×éµÄ³¤¶È
-		System.out.println("µÚÒ»¸öÊı×é³¤¶È£»" + books.length);
-		System.out.println("µÚ¶ş¸öÊı×é³¤¶È£»" + names.length);
-		System.out.println("µÚÈı¸öÊı×é³¤¶È£»" + strArr.length);
+		//è®¿é—®3ä¸ªæ•°ç»„çš„é•¿åº¦
+		System.out.println("ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½é³¤ï¿½È£ï¿½" + books.length);
+		System.out.println("ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é³¤ï¿½È£ï¿½" + names.length);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é³¤ï¿½È£ï¿½" + strArr.length);
 	}
 
 }
