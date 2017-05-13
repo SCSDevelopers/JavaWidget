@@ -21,9 +21,9 @@ public class ArrayTest {
 		String[] strArr = new String[5];
 
 		//访问3个数组的长度
-		System.out.println("��һ�����鳤�ȣ�" + books.length);
-		System.out.println("�ڶ������鳤�ȣ�" + names.length);
-		System.out.println("���������鳤�ȣ�" + strArr.length);
+		System.out.println("第1個數組的長度" + books.length);
+		System.out.println("第2個數組的長度" + names.length);
+		System.out.println("第3個數組的長度" + strArr.length);
 	}
 
 }
