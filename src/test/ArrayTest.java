@@ -21,7 +21,7 @@ public class ArrayTest {
 		String[] strArr = new String[5];
 
 		//访问3个数组的长度
-		System.out.println("第1个数组的长度" + books.length);
+		System.out.println("第1个数组的长度" + abooks.length);
 		System.out.println("第2个数组的长度" + names.length);
 		System.out.println("第3个数组的长度" + strArr.length);
 	}
